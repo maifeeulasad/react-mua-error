@@ -14,7 +14,10 @@ export default class Error extends React.Component {
       <div className={style.align}>
         <div className={style.grid}>
           <div className={style.grid__row}>
-            {[...this.state.code].map((cha, i) => {
+            {(this.props.code === undefined
+              ? [...this.state.code]
+              : [...this.props.code]
+            ).map((cha, i) => {
               if (i % 2) {
                 return (
                   <div className={style.grid__col}>

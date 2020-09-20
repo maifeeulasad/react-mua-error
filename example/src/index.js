@@ -5,4 +5,4 @@ import ReactDOM from 'react-dom'
 import Error from 'react-mua-error'
 import 'react-mua-error/dist/index.css';
 
-ReactDOM.render(<Error />, document.getElementById('root'))
+ReactDOM.render(<Error code={'403'} message={'hello'}/>, document.getElementById('root'))
