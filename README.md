@@ -15,15 +15,18 @@ npm install --save react-mua-error
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-mua-error'
+import Error from 'react-mua-error'
 import 'react-mua-error/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+ReactDOM.render(
+<Error code={"404"} />
+, document.getElementById('root'))
 ```
+
+## Sample 
+ - https://codesandbox.io/s/react-mua-error-4bpwf?file=/src/index.js
+
+![react-mua-error](https://github.com/maifeeulasad/react-mua-error/blob/gh-pages/react_mua_error.png)
 
 ## License
 
