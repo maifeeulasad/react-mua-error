@@ -23,10 +23,6 @@
   animation-fill-mode: both;
 }
 
-.animation--reverse {
-  animation-direction: reverse;
-}
-
 @-webkit-keyframes shake-vertical {
 
   15%,
@@ -61,10 +57,17 @@
 
 }
 
-.animation--shake--vertical {
+.animationShakeVertical {
   -webkit-animation-name: shake-vertical;
   animation-name: shake-vertical;
   will-change: transform;
+}
+
+.animationShakeVerticalReverse{
+  -webkit-animation-name: shake-vertical;
+  animation-name: shake-vertical;
+  will-change: transform;
+  animation-direction: reverse;
 }
 
 .grid {
