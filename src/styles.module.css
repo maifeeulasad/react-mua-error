@@ -23,7 +23,16 @@
   animation-fill-mode: both;
 }
 
-.animation--reverse {
+.animationShakeVertical {
+  -webkit-animation-name: shake-vertical;
+  animation-name: shake-vertical;
+  will-change: transform;
+}
+
+.animationShakeVerticalReverse {
+  -webkit-animation-name: shake-vertical;
+  animation-name: shake-vertical;
+  will-change: transform;
   animation-direction: reverse;
 }
 
@@ -59,12 +68,6 @@
     transform: translateY(0.75rem);
   }
 
-}
-
-.animation--shake--vertical {
-  -webkit-animation-name: shake-vertical;
-  animation-name: shake-vertical;
-  will-change: transform;
 }
 
 .grid {
