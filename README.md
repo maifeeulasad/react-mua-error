@@ -27,7 +27,7 @@ ReactDOM.render(
  - https://codesandbox.io/s/react-mua-error-4bpwf?file=/src/index.js
  - https://maifeeulasad.github.io/react-mua-error/
 
-![react-mua-error](https://github.com/maifeeulasad/react-mua-error/blob/gh-pages/react_mua_error.png)
+![snap-react-mua-error](https://raw.githubusercontent.com/maifeeulasad/react-mua-error/62d4d7b54a33f3e548feb859a2d723c9e1df658a/react_mua_error.png)
 
 ## License
 
